@@ -123,6 +123,22 @@
 	// Background.
 		$wrapper._parallax(0.925);
 
+	//Collapsible function DGB
+	var coll = document.getElementsByClassName("dgb_collapsible");
+	var i;
+
+	for (i = 0; i < coll.length; i++) {
+		coll[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			var dgb_content = this.nextElementSibling;
+			if (dgb_content.style.display === "block") {
+			dgb_content.style.display = "none";
+			} else {
+			dgb_content.style.display = "block";
+			}
+		});
+	}
+
 	// Nav Panel.
 
 		// Toggle.
