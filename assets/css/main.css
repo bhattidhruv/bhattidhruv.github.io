@@ -3286,10 +3286,10 @@ input, select, textarea {
 			-webkit-transition: opacity 1s ease-in-out;
 			-ms-transition: opacity 1s ease-in-out;
 			transition: opacity 1s ease-in-out;
-			-moz-transition-delay: 0.75s;
-			-webkit-transition-delay: 0.75s;
-			-ms-transition-delay: 0.75s;
-			transition-delay: 0.75s;
+			-moz-transition-delay: 0.0s;
+			-webkit-transition-delay: 0.0s;
+			-ms-transition-delay: 0.0s;
+			transition-delay: 0.0s;
 			background: #1e252d;
 			content: '';
 			display: block;
@@ -3308,7 +3308,7 @@ input, select, textarea {
 		@media screen and (orientation: portrait) {
 
 			#wrapper > .bg {
-				background-size: auto,								auto,														auto 175%;
+				background-size: auto,auto,auto 175%;
 			}
 
 		}
